@@ -1,21 +1,25 @@
 import "./App.css";
 
+import cardamomImg from "./assets/CA4A3172_6bf78315-6c77-4e0f-9120.png";
+import masalaImg from "./assets/homemade-indian-sweet-chai.png";
+import gingerImg from "./assets/ginger-tea-with-honey-and-lemon.png";
+
 function App() {
   const teas = [
     {
-      img: "src/assets/CA4A3172_6bf78315-6c77-4e0f-9120.png",
+      img: cardamomImg,
       name: "Royal Cardamom Bloom",
       desc: "A fragrant infusion where green cardamom opens slowly, releasing warmth and calm.",
       price: "$48",
     },
     {
-      img: "src/assets/homemade-indian-sweet-chai.png",
+      img: masalaImg,
       name: "Masala Heritage Fusion",
       desc: "A balanced masala blend inspired by royal kitchens and evening rituals.",
       price: "$48",
     },
     {
-      img: "src/assets/ginger-tea-with-honey-and-lemon.png",
+      img: gingerImg,
       name: "Zesty Ginger Elixir",
       desc: "A bold yet refined ginger-forward tea with a clean, lingering finish.",
       price: "$48",
