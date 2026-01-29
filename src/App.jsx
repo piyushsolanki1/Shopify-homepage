@@ -1,8 +1,10 @@
 import "./App.css";
 
+import logo from "./assets/Chai_Culture_Logo_Edited.jpg";
 import cardamomImg from "./assets/CA4A3172_6bf78315-6c77-4e0f-9120.png";
 import masalaImg from "./assets/homemade-indian-sweet-chai.png";
 import gingerImg from "./assets/ginger-tea-with-honey-and-lemon.png";
+
 
 function App() {
   const teas = [
@@ -34,7 +36,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-2">
           <div className="flex items-center justify-between h-18">
             <img
-              src="src/assets/Chai_Culture_Logo_Edited.jpg"
+              src="{logo}"
               className="h-16 w-16 object-contain"
               alt="Chai Culture Logo"
             />
