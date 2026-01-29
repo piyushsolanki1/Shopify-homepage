@@ -36,7 +36,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-2">
           <div className="flex items-center justify-between h-18">
             <img
-              src="{logo}"
+              src={logo}
               className="h-16 w-16 object-contain"
               alt="Chai Culture Logo"
             />
